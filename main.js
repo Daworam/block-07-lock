@@ -16,12 +16,11 @@ const combo2 = 30 + 10;
 const combo3 = 40 - 1;
 //assigned combo3 to be equal to the outcome of 40-1
 
-const message2 = "The comination for the lock is:"
+const message2 = "The comination for the lock is:";
 //assigned message2 to be a string reading "The combination for the lock is:"
 
 
-alert(`${message} ${message2} ${combo1} - ${combo2} - ${combo3}`)
+alert(`${message} ${message2} ${combo1} - ${combo2} - ${combo3}`);
 // programmed an alert to display the vairables message, message2, combo1, combo2, and combo3 to read:
 // "You have received this message because you have been chosen to open an important vault. Here is the 
 // secret combination: The combination for the lock is: 10 - 40 - 39"
-
