@@ -24,3 +24,24 @@ alert(`${message} ${message2} ${combo1} - ${combo2} - ${combo3}`);
 // programmed an alert to display the vairables message, message2, combo1, combo2, and combo3 to read:
 // "You have received this message because you have been chosen to open an important vault. Here is the 
 // secret combination: The combination for the lock is: 10 - 40 - 39"
+
+
+// const combo1input = document.getElementsByName("Combo1")[0].value;
+
+// if (combo1input != 10) {
+//   alert("This is not correct")
+// }
+
+function validateForm() {
+  let combo1input = document.getElementById("Combo1").value;
+  let combo2input = document.getElementById("Combo2").value;
+  let combo3input = document.getElementById("Combo3").value;
+  if (combo1input != 10 || combo2input != 40 || combo3input != 39) {
+    alert("A combination number is incorrect")
+    return false;
+  } 
+  else {
+    return true;
+  }
+}
+
