@@ -15,11 +15,16 @@ p {
 }
 
 img {
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
 }
 
 h2 {
   text-align: center;
   margin-top: 25%;
+}
+
+#gif {
+  height: 50%;
+  width: 50%;
 }
