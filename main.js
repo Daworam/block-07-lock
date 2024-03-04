@@ -37,10 +37,11 @@ function validateForm() {
   let combo2input = document.getElementById("Combo2").value;
   let combo3input = document.getElementById("Combo3").value;
   if (combo1input != 10 || combo2input != 40 || combo3input != 39) {
-    alert("A combination number is incorrect")
+    alert("A combination number is incorrect");
     return false;
-  } 
-  else {
-    return true;
-  }
+}else{
+  event.preventDefault()
+  window.location = "./success.html"
+
+}
 }
