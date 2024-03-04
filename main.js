@@ -25,23 +25,16 @@ alert(`${message} ${message2} ${combo1} - ${combo2} - ${combo3}`);
 // "You have received this message because you have been chosen to open an important vault. Here is the 
 // secret combination: The combination for the lock is: 10 - 40 - 39"
 
-
-// const combo1input = document.getElementsByName("Combo1")[0].value;
-
-// if (combo1input != 10) {
-//   alert("This is not correct")
-// }
-
 function validateForm() {
-  let combo1input = document.getElementById("Combo1").value;
-  let combo2input = document.getElementById("Combo2").value;
-  let combo3input = document.getElementById("Combo3").value;
-  if (combo1input != 10 || combo2input != 40 || combo3input != 39) {
-    alert("A combination number is incorrect");
+  let combo1input = document.getElementById("Combo1").value; //creates new variable based on user input
+  let combo2input = document.getElementById("Combo2").value; //creates new variable based on user input
+  let combo3input = document.getElementById("Combo3").value; //creates new variable based on user input
+  if (combo1input != 10 || combo2input != 40 || combo3input != 39) { //checks new variables to make sure they are the correct numbers
+    alert("A combination number is incorrect"); //alerts users if a number input is incorrect
     return false;
 }else{
-  event.preventDefault()
-  window.location = "./success.html"
+  event.preventDefault() //prevents page from reloading to index.html
+  window.location = "./success.html" //redirects user to success page once numbers input have been verified as correct
 
 }
 }
