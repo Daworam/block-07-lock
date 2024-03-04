@@ -1,0 +1,28 @@
+// 1. Write Pseudocode for the project
+// 2. Create an alert that contains a message saying "You have received this message because you have been chosen to open an important vault. Here is the secret combination."
+// 3. Assign variables that contain results of calculations using arithmentic
+// 4. Determine variable outcomes and mathematic process to produce outcome
+// 5. Include comments in your code
+// 6. Create a dialog box displaying vault codes and text by concatenating strings
+// 7. Submit file with code to github 
+
+const message = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
+// assigned variable 'message' to contain a string that reads "You have received this...."
+
+alert(message);
+// programmed a dialogue box to populate on the screen containing the message assigned to the 'message' variable
+
+const combo1 = 20 / 2;
+// assigned combo1 to be equal to the outcome of 20/2
+const combo2 = 30 + 10;
+//assigned combo2 to be equal to the outcome of 30+10
+const combo3 = 40 - 1;
+//assigned combo3 to be equal to the outcome of 40-1
+
+const message2 = "The comination for the lock is:"
+//assigned message2 to be a string reading "The combination for the lock is:"
+
+alert(`${message2} ${combo1} - ${combo2} - ${combo3}`)
+// programmed a second alert to display the vairables message2, combo1, combo2, and combo3 to read:
+// "The combination for the lock is: 10 - 40 - 39"
+
