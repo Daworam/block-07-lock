@@ -9,9 +9,6 @@
 const message = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
 // assigned variable 'message' to contain a string that reads "You have received this...."
 
-alert(message);
-// programmed a dialogue box to populate on the screen containing the message assigned to the 'message' variable
-
 const combo1 = 20 / 2;
 // assigned combo1 to be equal to the outcome of 20/2
 const combo2 = 30 + 10;
@@ -22,7 +19,8 @@ const combo3 = 40 - 1;
 const message2 = "The comination for the lock is:"
 //assigned message2 to be a string reading "The combination for the lock is:"
 
-alert(`${message2} ${combo1} - ${combo2} - ${combo3}`)
-// programmed a second alert to display the vairables message2, combo1, combo2, and combo3 to read:
+
+alert(` ${message} ${message2} ${combo1} - ${combo2} - ${combo3}`)
+// programmed an alert to display the vairables message, message2, combo1, combo2, and combo3 to read:
 // "The combination for the lock is: 10 - 40 - 39"
 
